@@ -24,4 +24,13 @@ run tests on server after build: `lite-server`
 
 debugging: in chrome, open `a.ts` and set breakpoints. maps work perfectly :-)
 
+see also:
+
+- https://angular.io/docs/ts/latest/guide/webpack.html
+- https://angular.io/docs/ts/latest/quickstart.html
+- http://webpack.github.io/docs/usage-with-grunt.html
+- https://github.com/webpack/grunt-webpack
+- http://gruntjs.com/getting-started
+
+
 
