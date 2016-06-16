@@ -5,10 +5,6 @@ module.exports = {
     'vendor': './vendor.ts',
     'app': './a.ts'
   },
-//  output: {
-//    filename: 'bundle.js'
-//  },
-
   output: {
     filename: '[name].js',
     chunkFilename: '[id].chunk.js'
