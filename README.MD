@@ -1,16 +1,26 @@
-npm install -g typings
+not sure these global installs are actually needed:
 
-typings install lodash --save
+    npm install -g typings
+    npm install -g webpack
+    npm install -g typescript
 
-npm install -g webpack
-npm install -g typescript
+add e.g. lodash to typings:
 
+    typings install lodash --save
 
-simple compilation tests: `typescript`
+run build and demo:
 
-simple webpack tests: `webpack`
+    npm run start
 
-run tests on server: `lite-server`
+clean:
+
+    grunt clean:dev
+
+simple compilation: `typescript`
+
+simple webpack: `webpack`
+
+run tests on server after build: `lite-server`
 
 debugging: in chrome, open `a.ts` and set breakpoints. maps work perfectly :-)
 
