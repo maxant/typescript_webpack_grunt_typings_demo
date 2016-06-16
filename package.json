@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "bundle.js",
   "scripts": {
-    "lite": "npm run lite-server"
+    "start": "grunt && lite-server"
   },
   "author": "Ant",
   "license": "MIT",

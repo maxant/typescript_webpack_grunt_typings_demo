@@ -8,4 +8,5 @@ node_modules/
 typings/
 vendor.js
 vendor.js.map
+npm-debug.log
 
