@@ -32,5 +32,9 @@ see also:
 - https://github.com/webpack/grunt-webpack
 - http://gruntjs.com/getting-started
 
+TODO:
+
+- how to watch? is there conflict between grunt watch and webpack watch? 
+  - http://stackoverflow.com/questions/30248021/how-to-use-grunt-webpack-with-watch-and-keepalive
 
 
