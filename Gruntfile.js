@@ -7,7 +7,8 @@ module.exports = function(grunt) {
       somename: require('./webpack.config.js')
     },
     clean: {
-        dev: ['*.js', '!webpack.config.js', '!Gruntfile.js']
+        dev: ['*.js', '*.js.map', '!webpack.config.js', '!Gruntfile.js'],
+        all: ['node_modules', 'typings']
     }
   });
 

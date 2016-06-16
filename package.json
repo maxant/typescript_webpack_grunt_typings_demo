@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "bundle.js",
   "scripts": {
-    "start": "grunt && lite-server"
+    "postinstall": "typings install",
+    "start": "grunt && lite-server",
+    "clean": "grunt clean:dev",
+    "clean-all": "grunt clean"
   },
   "author": "Ant",
   "license": "MIT",
