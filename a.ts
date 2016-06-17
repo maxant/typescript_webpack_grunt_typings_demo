@@ -1,9 +1,9 @@
 
-import {Service} from './b';
+import {Service} from "./b";
 
 
-var b: Service = new Service(6);
+let b: Service = new Service(6);
 
-console.log('out: ' + b.getit());
+console.log("out: " + b.getit());
 
 
